@@ -128,7 +128,7 @@ public class TestTaskTwo
     {
         Console.Clear();
 
-        const string CommandRunTask = "3";
+        const string CommandRunTask = "1";
         const string CommandExitTask = "2";
 
         bool isRunning = true;
