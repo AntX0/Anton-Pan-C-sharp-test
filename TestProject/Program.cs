@@ -98,7 +98,7 @@ public class TestTaskOne
 
     private void ShowAnswer(string userInputName, int userInputNumber)
     {
-        if (userInputName == _verificationName)
+        if (userInputName.ToLower() == _verificationName.ToLower())
         {
             Console.WriteLine($"Привет, {_verificationName}");
         }
